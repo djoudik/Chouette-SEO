@@ -1,3 +1,4 @@
+# BEGIN Expire headers
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresDefault "access plus 1 years"
@@ -24,3 +25,4 @@ ExpiresByType js/jquery-2.1.0.js "access plus 1 years"
 ExpiresByType js/jquery.touchSwipe.js "access plus 1 years"
 ExpiresByType style.css "access plus 1 years"
 </IfModule>
+# END Expire headers
