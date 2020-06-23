@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -870,7 +869,7 @@ h4 {
 
     .page-container,
     #hero-bloc {
-        overflow-x: hidden;
+     
         position: relative;
     }
 
@@ -891,7 +890,7 @@ h4 {
 
 @media (max-width: 767px) {
     .page-container {
-        overflow-x: hidden;
+        
         position: relative;
     }
 
@@ -970,7 +969,7 @@ h4 {
 
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
+      
         -webkit-box-shadow: none;
         box-shadow: none;
     }
