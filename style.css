@@ -336,6 +336,11 @@ a:hover {
     background: transparent;
 }
 
+.form-control:focus {
+    border-color: black;
+    color: black;
+}
+
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -869,7 +874,7 @@ h4 {
 
     .page-container,
     #hero-bloc {
-     
+
         position: relative;
     }
 
@@ -890,7 +895,7 @@ h4 {
 
 @media (max-width: 767px) {
     .page-container {
-        
+
         position: relative;
     }
 
@@ -969,7 +974,7 @@ h4 {
 
     .navbar-collapse {
         padding: 0;
-      
+
         -webkit-box-shadow: none;
         box-shadow: none;
     }
